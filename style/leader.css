@@ -1,0 +1,131 @@
+/* main font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap');
+
+/* common style */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+    ;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 870px;
+    background-color: #FFFFFF;
+    padding: 30px;
+    margin-top: 23px;
+    border-radius: 5px;
+}
+
+hr {
+    border: 1px solid #D1D1D1;
+    margin-bottom: 25px;
+}
+
+/* style top player */
+.section-title {
+    color: #562EFF;
+    font-size: 24px;
+    margin-top: 3px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    margin-bottom: 30px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+    height: 56px;
+    width: 56px;
+}
+
+.player-name {
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+/*----------------------------
+        top blog styles
+ ----------------------------*/
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
+
+.blog {
+    display: flex;
+    align-items: center;
+}
+
+.blog .thumbnail img {
+
+    width: 224px;
+    height: 127px;
+}
+
+.blog-info {
+    margin-left: 16px;
+}
+
+.blog-title {
+    font-size: 20px;
+}
+
+.blog-author {
+    font-size: 16px;
+    color: #9F9F9F;
+}
+
+.blog-author a {
+    color: #562EFF;
+    text-decoration: none;
+    font-size: 16px;
+}
+/*----------------
+ courses style  
+ -----------------*/
+ .courses{
+    display: flex;
+    justify-content: space-evenly;
+ }
+.courses .courses-banner img {
+    width: 224px;
+    height: 104px;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+.rating-time{
+    margin-left: 10px;
+}
+.course-duration{
+    color: #FF4A60;
+    background: #FFE4E8;
+    border-radius: 20px;
+    padding: 0 10px;
+}
